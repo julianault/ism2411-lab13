@@ -1,3 +1,6 @@
+# 1. A boolean filter selects rows that meet a specific condition and leaves out rows that do not.
+# 2. df["revenue"] returns a Series (one-dimensional), while df[["revenue"]] returns a DataFrame (two-dimensional). This matters when you need to work with a DataFrame instead of a single column.
+# 3. Pandas makes it faster and easier to organize, filter, and analyze large amounts of data using code. It also makes the process repeatable.
 
 # Exercise 1
 import pandas as pd
